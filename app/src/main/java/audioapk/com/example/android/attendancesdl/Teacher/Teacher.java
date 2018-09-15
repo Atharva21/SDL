@@ -6,6 +6,7 @@ import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentPagerAdapter;
 import android.support.v4.view.ViewPager;
 import android.support.v7.app.AppCompatActivity;
+import android.util.Log;
 
 import audioapk.com.example.android.attendancesdl.R;
 
@@ -17,6 +18,7 @@ public class Teacher extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.teacher_layout);
 
+        Log.i("atharva","it's me");
         // Create an instance of the tab layout from the view.
         final TabLayout tabLayout = findViewById(R.id.tab_layout);
         // Set the text for each tab.
